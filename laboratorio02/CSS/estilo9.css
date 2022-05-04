@@ -1,0 +1,47 @@
+.contenedor{
+    width:1280px ;
+    height: 800px;
+    background-color: #1EAAF1;
+    margin: auto;
+}
+header{
+    width: 1280px;
+    height: 210px;
+    background-color: #E2202C;
+}
+nav{
+    width: 250px;
+    height: 540px;
+    background-color: #35B736;
+}
+main{
+    width: 750px;
+    height: 540px;
+    background-color: #FD9727;
+    margin-left: 250px;
+    margin-top: -540px;
+}
+.anuncio1{
+    width:280px;
+    height: 180px;
+    background-color: #673FB4;
+    margin-left: 1000px;
+    margin-top: -540px;
+}
+.anuncio2{
+    width:280px;
+    height: 180px;
+    background-color: #999999;
+    margin-left: 1000px;
+}
+.anuncio3{
+    width:280px;
+    height: 180px;
+    background-color: #9A2FAE;
+    margin-left: 1000px;
+}
+footer{
+    width: 1280px;
+    height: 50px;
+    background-color: #FEE94E;
+}

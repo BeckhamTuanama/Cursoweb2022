@@ -1,0 +1,15 @@
+#cuerpo{
+    background-color:crimson;
+}
+#titulo{
+    color:black;
+    background-color:white;
+}
+#subtitulo{
+    color: yellow;
+    font-style: italic;
+}
+#parrafo{
+    color:aqua;
+    font-weight: bolder;
+}

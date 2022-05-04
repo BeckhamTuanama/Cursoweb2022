@@ -1,0 +1,19 @@
+h2{
+    color: orange;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    width:50%;
+    height:30px;
+    background-color:aqua;
+    margin: auto;
+}
+h3{color:blue;
+    font-weight:bolder
+}
+p{
+    font-style: italic;
+    color:olive;
+    font-weight:bold;
+}
