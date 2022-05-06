@@ -1,0 +1,92 @@
+body{
+    background-color: darkgreen;
+}
+.contenedor{
+    margin: auto;
+    background-color: white;
+}
+
+.parrafoimagen{
+    background-image: url(/img/foto.1.jpg.jpeg);
+}
+.parrafotransparencia{
+    background-color: black;
+    opacity: 70%;
+    color: white;
+}
+.parrafoimgrep{
+    background-image: url(/img/html.png);
+}
+.parrafoimgnorep{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+}
+.parrafoimgsiz{
+    background-image: url(/img/html.png);
+    background-size: 30px;
+}
+.parrafoimgver{
+    background-image: url(/img/html.png);
+    background-repeat: repeat-x;
+    background-size: 30px;
+}
+.parrafoimghor{
+    background-image: url(/img/html.png);
+    background-repeat: repeat-y;
+    background-size: 30px;
+}
+.parrafoimgcen{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+.parrafoimgder{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right;
+}
+.parrafoimgizq{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left;
+}
+.parrafoimgsup{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top;
+}
+.parrafoimginf{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: bottom;
+}
+.parrafoimgsupder{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top right;
+}
+.parrafoimgsupizq{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top left;
+}
+.parrafoimginfder{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: bottom right;
+}
+.parrafoimginfizq{
+    background-image: url(/img/html.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: bottom left;
+}
+
