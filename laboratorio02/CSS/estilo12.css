@@ -1,0 +1,124 @@
+body{
+    background-color: darkblue;
+}
+.contenedor{
+    background-color: white;
+    margin: auto;
+}
+.borde1{
+    border-style: dotted;
+}
+.borde2{
+    border-style: dashed;
+}
+.borde3{
+    border-style: solid;
+}
+.borde4{
+    border-style: double;
+}
+.borde5{
+    border-style: groove;
+}
+.borde6{
+    border-style: ridge;
+}
+.borde7{
+    border-style: inset;
+}
+.borde8{
+    border-style: outset;
+}
+.borde9{
+    border-style: none;
+}
+.borde10{
+    border-style: hidden;
+}
+.borde11{
+    border-style: dotted dashed;
+}
+.borde12{
+    border-style: dotted dashed solid;
+}
+.borde13{
+    border-style: dotted dashed solid double;
+}
+.borde14{
+    border-style: solid;
+    border-width: 10px;
+}
+.borde15{
+    border-style: solid;
+    border-width: 5px 10px;
+}
+.borde16{
+    border-style: solid;
+    border-width: 5px 10px 15;
+}
+.borde17{
+    border-style: solid;
+    border-width: 5px 10px 15px 20px;
+}
+.borde18{
+    border-style: solid;
+    border-width: medium;
+}
+.borde19{
+    border-style: dashed;
+    border-color: blue;
+    border-width: 5px;
+}
+.borde20{
+    border-style: dashed;
+    border-color: blue yellow;
+    border-width: 5px;
+}
+.borde21{
+    border-style: dashed;
+    border-color: blue yellow red;
+    border-width: 5px;
+}
+.borde22{
+    border-style: dashed;
+    border-color: blue yellow red green;
+    border-width: 5px;
+}
+.borde23{
+    border-top-style: dotted;
+    border-width: 5px;
+}
+.borde24{
+    border-bottom-style: dotted;
+    border-width: 5px;
+}
+.borde25{
+    border-left-style: dotted;
+    border-width: 5px;
+}
+.borde26{
+    border-right-style: dotted;
+    border-width: 5px;
+}
+.borde27{
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 15x;
+}
+.borde28{
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 10px 15px;
+}
+.borde29{
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 10px 15px 20px;
+}
+.borde30{
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 10px 15px 20px 25px;
+}
+
+

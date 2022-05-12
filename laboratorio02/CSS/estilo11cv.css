@@ -1,0 +1,30 @@
+        #principal {
+            border: solid 1px black;
+            margin: 0 auto;
+            padding: 90px;
+            width: 80%;
+            }
+        body{
+            background-size: 100%;
+            background-attachment: fixed;;
+            background: #C3C1AB
+        }
+        fieldset{
+            margin-bottom: 10px;
+        }
+        legend{
+            border: solid 2px #AE887B;
+            padding: 4px;
+            font-weight: bold;
+            background: white;
+        }
+        #mifoto{
+            margin: 5px;
+            border: solid 2px;
+        }
+        .fieldset{
+            border: solid black 1px;
+        }
+
+
+
