@@ -1,0 +1,32 @@
+body{
+    background-color: chartreuse;
+}
+.contenedor{
+    background-color: white;
+}
+.caja1{
+    width: 300px;
+    margin: auto;
+    border: 5px solid red;
+}
+
+.caja2{
+    max-width: 300px;
+    margin: auto ;
+    border: 5px solid blue;
+}
+.caja3{
+    width: 95%;
+    max-width: 800px;
+    height: 400px;
+    margin: auto ;
+    background-color: lavender;
+    border: 5px solid blue;
+}
+.caja4{
+    width: 95%;
+    height: 400px;
+    margin: auto ;
+    background-color: lavender;
+    border: 5px solid yellow;
+}

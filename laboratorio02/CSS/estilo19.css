@@ -1,0 +1,78 @@
+.contenedor{
+    background-color: black;
+}
+.degradado1{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient( to bottom, red,yellow);
+}
+.degradado2{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient( to right , red,yellow);
+}
+.degradado3{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient( to left , red,yellow);
+}
+.degradado4{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient( to top , red,yellow);
+}
+.degradado5{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient( to bottom , red,pink, yellow, green, blue, white);
+}
+.degradado6{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient( to right , red,pink ,yellow, green, blue, white);
+}
+.degradado7{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient( to left , red,pink ,yellow, green, blue, white);
+}
+.degradado8{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient( to top , red,pink ,yellow, green, blue, white);
+}
+.degradado9{
+    width:500px;
+    height:250px;
+    background: repeating-radial-gradient(red,yellow);
+}
+.degradado10{
+    width:500px;
+    height:250px;
+    background: repeating-radial-gradient(pink ,red, yellow, green, blue, white);
+}
+.degradado11{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient(180deg, red,yellow);
+}
+.degradado12{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient(90deg, red,yellow);
+}
+.degradado13{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient(-90deg, red,yellow);
+}
+.degradado14{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient(0deg, red,yellow);
+}
+.degradado15{
+    width:500px;
+    height:250px;
+    background: repeating-linear-gradient(70deg, red,yellow);
+}

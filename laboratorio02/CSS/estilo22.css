@@ -1,0 +1,53 @@
+body{
+    background-color: darkblue;
+}
+.contenedor{
+    background-color: white;
+}
+
+
+table{
+    width: 100%;
+    border: 4px solid darkorange;
+    border-collapse: collapse;
+}
+thead th ,tbody td{
+    border: 4px solid darkcyan;
+}
+
+
+th{
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+    background-color: orange;
+    color: gainsboro;
+}
+table tbody tr:hover{
+    background-color: black;
+    color: white;
+}
+
+.tabla1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.tabla1 td, .tabla1 th{
+    border: 1px solid greenyellow;
+}
+
+.tabla1 th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: darkgreen;
+    color: white;
+}
+
+.tabla1 tr:hover{
+    background-color: goldenrod;
+    color: white;
+}

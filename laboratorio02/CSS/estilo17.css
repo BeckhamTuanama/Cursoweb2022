@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&family=Quintessential&display=swap');
+
+body{
+    background-color: bisque;
+}
+.contenedor{
+    background-color: white;
+    margin: auto;
+}
+
+.fuente1{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.fuente2{
+    font-family: 'Quintessential', cursive;
+}
+.fuente3{
+    font-style: italic;
+}
+.fuente4{
+    font-style: oblique;
+}
+.fuente5{
+    font-style: normal;
+}
+.fuente6{
+    font-weight: bold;
+}
+.fuente7{
+    font-weight: bolder;
+}
+.fuente8{
+    font-style: small;
+}
+.fuente9{
+    font-variant: small-caps;
+}
+.fuente10{
+    font-size: 25px;
+}
+.fuente11{
+    font-variant: normal;
+}
+@font-face{
+    font-family: "HindSiliguri";
+    src: url("/fonts/Hind_Siliguri/HindSiliguri-Bold.ttf")
+}
+@font-face{
+    font-family: "FiraSans";
+    src: url("/fonts/Fira_Sans/FiraSans-BlackItalic.ttf")
+}
+@font-face{
+    font-family: "Batman";
+    src: url("/fonts/BATMAN.ttf")
+}
+@font-face{
+    font-family: "Transformers";
+    src: url("/fonts/Transformers\ Movie.ttf")
+}
+.fuente12{
+    font-family: "HindSiliguri";
+}
+.fuente13{
+    font-family: "FiraSans";
+}
+.fuente14{
+    font-family: "Batman";
+}
+.fuente15{
+    font-family: "Transformers";
+}

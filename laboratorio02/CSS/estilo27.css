@@ -1,0 +1,25 @@
+body{
+    background-color: darkblue;
+}
+.contenedor{
+    background-color: white;
+}
+
+img{
+    float: right;
+}
+.caja1{
+    float: right;
+    padding: 20px;
+    background-color: red;
+}
+.caja2{
+    float: right;
+    padding: 20px;
+    background-color: yellow;
+}
+.caja3{
+    float: right;
+    padding: 20px;
+    background-color: green;
+}
