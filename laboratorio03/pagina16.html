@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Pagina 16</title>
+</head>
+<body>
+    <script type="text/javascript">
+        ///Arreglos
+        ///Ejemplo 1:Crear un vector con las estaciones del año
+        var estaciones=["verano", "otoño", "invierno", "primavera"];
+        //conocer el tamaño del vector
+        //nombre del vector.lenght
+        document.write("El tamaño del vector es: "+ estaciones.length + "<br>");
+
+        //quieres mostrar el primer valor del vector
+        document.write("El primer valor del vector es: "+estaciones[0]+"<br>");
+
+        //mostrar todos los datos del vector
+        for(var i=0;i<estaciones.lenght;i++){
+            document.write("El valor "+(i+1)+" del vector es: "
+            +estaciones[i]+"<br>");
+        }
+
+        //añadir un elemento al final del vector
+        estaciones.push("Ya no hay mas estaciones");
+        document.write("El tamaño del vector es: "+estaciones.lenght+"<br>");
+        for(var i=0;i<estaciones.lenght;i++){
+            document.write("El valor "+(i+1)+" del vector es:" +estaciones[i]+"<br>");
+        }
+
+        //elimina el elemento del final
+        estaciones.pop();
+        document.write("El tamaño del vector es: "+estaciones.lenght+"<br>");
+        for(var i=0;i<estaciones.lenght;i++){
+            document.write("El valor "+(i+1)+" del vector es: " +estaciones[i]+"<br>");
+        }
+
+        //eliminar elemento antes del inicio del vector
+        estaciones.shift();
+        document.write("El tamaño del vector es: "+estaciones.lenght+"<br>");
+        for(var i=0;i<estaciones.lenght;i++){
+            document.write("El valor "+(i+1)+" del vector es:" +estaciones[i]+"<br>");
+        }
+
+        //encontrar el indice del vector correspondiente a otoño
+        var indice=0;
+        indice=estaciones.indexOf("otoño");
+        document.write("el indice de otoño es: "+indice+"<br>");
+
+
+        //eliminar un valor del vector por posicion
+        var indice=0;
+        indice=estaciones.indexOf("primavera");
+        estaciones.splice(indice,1);
+        document.write("El tamaño del vector es: "+estaciones.lenght+"<br>");
+        for(var i=0;i<estaciones.lenght;i++){
+            document.write("El valor "+(i+1)+" del vector es:" +estaciones[i]+"<br>");
+        }
+
+    </script>
+</body>
+</html>

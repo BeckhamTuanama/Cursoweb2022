@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 8</title>
+    <script type="text/javascript">
+
+    //Ejemplo1:
+        //Ingresar un nombre y luego mostrar el saludo 
+        //5 veces.
+
+        //Definiendo variables
+        var nom="", cont=1;
+        //Capturando valores
+        nom=prompt("Ingresa tu nombre: ")
+        //While
+        while(cont<=5){
+            document.write("Hola como estas "+nom+"<br>")
+            cont++;
+        }
+        //do while
+        cont=1;
+        do{
+            document.write("Hola como estas "+nom+"<br>")
+            cont++;
+        }while(cont<=5);
+
+        //for
+        cont=1;
+        for(i=1;cont<=5;cont++){
+        document.write("Hola como estas "+nom+"<br>");
+    }
+
+        //Ejemplo2:
+        //Desarrollar una aplicacion que te permita mostrar
+        //los n primeros numeros naturales
+
+        //Definiendo variables
+        var cont=1, can=0;
+        //Capturando valores
+        can=parseInt(prompt("Ingresa la cantidad de numeros:"));
+
+        //While
+        while(cont<=can){
+            document.write(cont+"<br>");
+            cont++;
+        }
+        //Do while
+        cont=1;
+        do{
+            document.write(cont+"<br>");
+            cont++;
+        }while(cont<=can);
+
+        //For
+        cont=1;
+        for(cont;cont<=can;cont++){
+            document.write(cont+"<br>");
+        }
+
+        ///Acumulador: Permite ir sumando valores en una
+        ///variable de acuerdo a cada vuelta del bucle
+
+        ///Sintaxsis
+        ///acumulador=acumulador+valor;
+        
+        ///Ejemplo3: Desarrollar una aplicacion que permita sumar
+        ///los 10 primeros numeros naturales.
+
+        var cont=1, sum=0; 
+
+        //while
+        while(cont<=10){
+            sum=sum+cont;
+            cont=cont+1;
+        }
+        document.write("La suma de los 10 valores es: "+sum+"<br>");
+        //do while
+        cont=1;
+        sum=0;
+        do{
+            sum=sum+cont;
+            cont++;
+        }while(cont<=10);
+        document.write("La suma de los 10 valores es: "+sum+"<br>");
+
+        //for
+        cont=1;
+        sum=0;
+        for(cont;cont<=10;cont++){
+            sum=sum+cont;
+        }
+        document.write("La suma de los 10 valores es: "+sum+"<br>");
+
+        ///Ejemplo4: Desarrollar una aplicacion que permita sumar
+        ///los 10 primeros numeros naturales.
+
+        var cont=1, can=0, num=0;
+
+        //Capturando valores
+        num=paseInt(prompt("Ingresa la cantidad de numeros: "))
+        //while
+        while(cont<=10){
+            sum=sum+cont;
+            cont=cont+1;
+        }
+        document.write("La suma de los 10 valores es: "+sum+"<br>");
+
+        //do while
+        cont=1;
+        sum=0;
+        do{
+            sum=sum+cont;
+            cont++;
+        }while(cont<=10);
+        document.write("La suma de los 10 valores es: "+sum+"<br>");
+
+        //for
+        cont=1;
+        sum=0;
+        for(cont;cont<=10;cont++){
+            sum=sum+cont;
+        }
+        document.write("La suma de los 10 valores es: "+sum+"<br>");
+
+        //Ejemplo 5:
+        //Desarrollar una aplicacion que permita ingresar un valor y sobre este valor calcular la tabla de multiplicar, dependiendo de la cantidad de valores que se desea trabajar.
+        //¿Cuantas variables necesito?
+        //3
+        //¿Que tipo de datos necesito?
+        //entero
+        //¿Como se llamarian las variables
+        //cont, can, num
+        //¿Que valores voy a leer?
+        //can, num
+
+        var cont=1, can=0, num=0;
+
+        //capturando valores 
+        can=parseInt(prompt("Ingresa la cantidad de numeros"));
+        num=parseInt(prompt("Ingresa el numero de la tabla: "));
+
+        //while
+        while(cont<=can){
+            document.write(num+ "x" +cont+ " = "+(num*cont)+"<br>");
+            cont++;
+        }
+        //do while
+        cont=1;
+        do{
+            document.write(num+ " x " +cont+ " = "+(num*cont)+"<br>");
+            cont++;
+        }while(cont<=can);
+        
+        //for
+        cont=1;
+        for(cont;cont<=can;cont++){
+            document.write(num+ " x " +cont+ " = "+(num*cont)+"<br>");
+        }
+        document.write("<hr>");
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

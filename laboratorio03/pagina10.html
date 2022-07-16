@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 10</title>
+    <script type="text/javascript">
+        //PROCEDIMIENTOS:
+        //Ejemplo1: Desarrollar una aplicacion que permita 
+        //ingresar tus datos personales como, nombre, apellidos
+        //fecha de nacimiento y mostrar un mensaje con toda tu
+        //informacion.
+        //Cuantas variables necesito?
+        //3
+        //Que tipo de datos necesito?
+        //texto
+        //Como se llamarian las variables?
+        //nom, ape, fec
+        //Que valores voy a leer?
+        //nom, ape, fec
+
+        //Creando el procedimiento
+        function MostrarDatos(n, a, f){
+            document.write("Los datos guardados son: <br>")
+            document.write("El nombre es: "+n+" <br>")
+            document.write("El apellido es: "+a+" <br>")
+            document.write("La fecha de nacimiento es: "+f+" <br>")
+        }
+
+        //Declarando variables
+        var nom="", ape="", fec="";
+
+        //Capturando valores
+        nom=prompt("Ingrese sus nombres");
+        ape=prompt("Ingrese sus apellidos");
+        fec=prompt("Ingrese su fecha de nacimiento");
+        //Mostrando resultados
+        MostrarDatos(nom,ap,fec);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 7</title>
+    <script type="text/javascript">
+
+    //Ejemplo1:
+        //Desarrollar una aplicacion que permita calcular el sueldo final
+        //de un trabajador si se sabe qu el sueldo basico se ingresa por 
+        //teclado. Adicional a esto se va a calcular la bonificacion y el
+        //descuento, dependiendo de la categoria a la cual pertenezca, tal
+        //como se muestra en la siguiente tabla:
+        //Categoria           Bonificacion           descuento
+        //1                   7%                     5%
+        //2                   9%                     7%
+        //3                   11%                    9%
+        //Mostrar todos los resultados
+        //¿Cuantas variables necesito?
+        //5
+        //¿Que tipo de datos necesito?
+        //Real, entero
+        //¿Como se llamaran las variables?
+        //sb,sf,cat, bon, des
+        //¿Que valores voy a leer?
+        //sb, cat
+
+        //definiendo variables
+        var sb=0, bon=0, des=0, sf=0, cat=0;
+        //capturando valores
+        sb=parseFloat(prompt("Ingresa el sueldo basico"));
+        cat=parseInt(prompt("Ingresa la categoria [1] o [2] o [3]: "));
+        //selectiva
+        switch(cat){
+            case 1:
+            bon=sb*0.07;
+            des=sb*0.05;
+            break;
+            case 2:
+            bon=sb*0.09;
+            des=sb*0.07;
+            break;
+            case 3:
+            bon=sb*0.11;
+            des=sb*0.09;
+            break;
+            default:
+            bon=0;
+            des=0;
+            break;
+        }
+        //realizando operaciones
+        sf=sb+bon-des;
+
+        //Mostrando resultados
+        document.write("El sueldo basico es: " +sb+"<br>");
+        document.write("La bonificacion es: " +bon+"<br>");
+        document.write("El descuento es: " +des+"<br>");
+        document.write("El sueldo final es: " +sf+"<br>");
+        document.write("<hr>");
+
+        //Ejemplos2:Desarrollar una aplicaion que permita
+        //ingresar el precio de un producto y la cantidad a 
+        //comprar y dependiendo de la categoria se le aplicara
+        //un descuento al subtotal tal como se muestra en la 
+        //siguiente tabla:
+
+        //Categoria         descuento
+        //A                 3%
+        //B                 5%
+        //C                 7%
+        //D                 9%
+
+        //Mostrar todos los resultados
+        //¿Cuantas variables necesito?
+        //6
+        //¿Que tipo de datos necesito?
+        //Real, entero, texto
+        //¿Como se llamaran las variables?
+        //pre, can, sbt, cat, des, tot
+        //¿Que valores voy a leer?
+        //pre, can, cat
+
+        //definiendo variables
+        var pre=0, can=0, sbt=0, cat="", des=0, tot=0;
+
+        //capturando valores
+        pre=parseFloat(prompt("Ingresa el precio:"));
+        can=parseInt(prompt("Ingresa la cantidad"));
+        cat=parseInt("Ingresa la categoria [a] o [b] o [c] o [d]:");
+        
+
+        //Realizando operaciones
+        sbt=pre*can;
+
+        //selectiva
+        switch(cat){
+            case "a":
+            des=sbt*0.03;
+            break;
+            case "b":
+            des=sbt*0.05;
+            break;
+            case "c":
+            des=sbt*0.7;
+            break;
+            case "d":
+            des=sbt*0.09;
+            break;
+            default:
+            des=0;
+            break;
+        }
+        tot=sbt-des;
+        //Mostrando resultados
+        document.write("El subtotal es: " +sbt+"<br>");
+        document.write("El descuento es: " +des+"<br>");
+        document.write("El total es: " +tot+"<br>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 15</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Numero de horas:</label>
+        <input type="text" name="txtNh" id="txtNh"><br>
+        <label for="">Seleccione el area</label>
+        <select name="cboArea" id="cboArea">
+            <option value="0">Seleccione un area</option>
+            <option value="15">Administracio</option>
+            <option value="18">Sistemas</option>
+            <option value="12">Soporte</option>
+            <option value="16">Contabilidad</option>
+            <option value="10">Ventas</option>
+            <option value="13">Almacen</option>
+        </select>
+        <label for="">Costo de horas:</label>
+        <input type="text" name="txtCh" id="txtCh"><br>
+        <label for="">Suelo basico:</label>
+        <input type="text" name="txtSb" id="txtSb"><br>
+        <label for="">Categoria</label>
+        <input type="radio" name="categoria" id="rbA">A
+        <input type="radio" name="categoria" id="rbB">A
+        <input type="radio" name="categoria" id="rbC">A
+        <input type="radio" name="categoria" id="rbD">A
+        <br>
+        <label for="txtBon">Boni:</label>
+        <input type="text" name="txtBon" id="txtBon" readonly><br>
+        <label for="chkTar"> Tardanza</label>
+        <input type="checkbox" name="chkTar" id="chkTar"><br>
+        <label for="txtDes">Des:</label>
+        <input type="text" name="txtDes" id="txtDes" readonly><br>
+        <label for="txtSf"> Sueldo Final</label>
+        <input type="text" name="txtSf" id="txtSf" readonly><br>
+        <button type="button" id="btnCalcular" name="btnCalcular" onclick="CalcularSueldoEmpleado()">Calcular</button>
+        <button type="button" id="btnLimpiar" name="btnLimpiar" onclick="Limpiar()">Limpiar</button>
+
+
+    </form>
+</body>
+</html>

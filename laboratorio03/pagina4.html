@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 4</title>
+    <script type="text/javascript">
+
+        ///Ejemplo 1: Desarrollar una aplicacion que calcule elarea
+        ///de un triangulo, si se debe de ingresar la base y la altura.
+        ///Si el area del triangulo es mayor a 50, se mostrara un mensaje
+        ///indicando "Es un triangulo grande" en caso contrario se mostrara
+        ///un mensaje indicando "Es un triangulo pequeño" 
+        //¿Cuantas variables necesito?
+        //4
+        //¿Que tipo de datos necesito?
+        //real, texto
+        //¿Como se llamarian las variables
+        //b, h, area, men
+        //¿Que valores voy a leer?
+        //b, h
+        //¿Cual seria la operacion?
+        //area=(b*h)/2;
+
+        //definiendo valores
+        var b=0, h=0, area=0, men="";
+        //capturando valores
+        b=parseFloat(prompt("Ingresa la base del triangulo: "));
+        h=parseFloat(prompt("Ingresa la altura del triangulo: "));
+        //realizando operaciones
+        area=(b*h)/2;
+        //condicion
+        if(area>50){
+            men="Es un triangulo grande"
+        }else{
+            men="Es un triangulo pequeño"
+        }
+        //mostrando resultados
+        document.write("El area del triangulo es:"+area+"<br>");
+        document.write(men + "<br>");
+        document.write("<hr>");
+
+        ///Ejemplo2: Desarrollar una aplicacion que permita calcular 
+        ///el total a pagar por la compra de un producto si se sabe que 
+        ///se va a ingresar el precio del producto y la cantidad que se
+        ///va a comprar. Si el subtotal es mayor a 1000, se aplicara un 
+        ///descuento del 5% en caso contrario el descuento sera del 2%. 
+        ///Si el cliente quiere factura se le aplicara el 18% por concepto
+        ///de IGV en caso contrario no se aplicara nada. Mostrar todos los 
+        ///resultados.
+        //Cuantas variables necesito?
+        ///real, entero, texto. 
+        ///Como se llamarian las variables?
+        ///pre, can, sbt, des,tip,igv,tot
+        ///Que valores voy a leer?
+        ///pre, can, tip. 
+        ///Cual seria la operacion?
+        ///sbt=pre*can; 
+        ///des=sbt*0.05 -- des=sbt*0.02;
+        ///igv=sbt*0.18;
+        ///tot=sbt-des+igv;
+
+        //Definiendo variables
+        var pre=0, can=0, sbt=0, tip="", igv=0, tot=0;
+        //Capturando valores
+        pre=parseFloat(prompt("Ingresa el precio:"))
+        can=parseFloat(prompt("Ingresa el precio:"))
+        tip=prompt("Ingresa [f] Factura o [b] Boleta")
+        //Realizando operaciones
+        sbt=pre*can;
+        if(sbt>1000){
+            des=sbt*0.05;
+        }else{
+            des=sbt*0.02;
+        }
+
+        if(tip=="f"){
+            igv=sbt*0.18;
+        }else{
+            igv=0;
+        }
+        tot=sbt-des+igv;
+        //Mostrando resultados
+        document.write("El subtotal es: "+sbt+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El igv es: "+igv+"<br>");
+        document.write("El total es: "+tot+"<br>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
